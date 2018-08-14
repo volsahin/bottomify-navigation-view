@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bottomifyNavigationBackgroundColor">#222327</color>
-    <color name="bottomifyPassiveTextColor">#898A8E</color>
-    <color name="bottomifyPressedTextColor">#2E2F33</color>
-    <color name="bottomifyActiveTextColor">#FEFFFF</color>
+    <color name="bottomifyBackgroundColor">#222327</color>
+    <color name="bottomifyPassiveColor">#AFB0B4</color>
+    <color name="bottomifyPressedColor">#2E2F33</color>
+    <color name="bottomifyActiveColor">#F9FAFE</color>
 </resources>

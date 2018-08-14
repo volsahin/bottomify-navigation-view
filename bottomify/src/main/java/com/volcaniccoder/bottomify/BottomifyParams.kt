@@ -5,9 +5,9 @@ import android.view.Menu
 
 class BottomifyParams {
     var menu: Menu? = null
-    @ColorRes var activeColor: Int = R.color.bottomifyActiveTextColor
-    @ColorRes var passiveColor: Int = R.color.bottomifyPassiveTextColor
-    @ColorRes var pressedColor: Int = R.color.bottomifyPressedTextColor
+    @ColorRes var activeColor: Int = R.color.bottomifyActiveColor
+    @ColorRes var passiveColor: Int = R.color.bottomifyPassiveColor
+    @ColorRes var pressedColor: Int = R.color.bottomifyPressedColor
     var itemPadding: Float = 16f
     var itemTextSize : Float = 40f
     var animationDuration: Int = 300
