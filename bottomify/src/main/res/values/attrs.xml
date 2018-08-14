@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomifyNavigationView">
+        <attr name="menu" format="reference" />
+        <attr name="item_padding" format="dimension" />
+        <attr name="item_text_size" format="dimension" />
+        <attr name="active_color" format="color" />
+        <attr name="passive_color" format="color" />
+        <attr name="pressed_color" format="color" />
+        <attr name="animation_duration" format="integer" />
+        <attr name="scale_percent" format="integer" />
+    </declare-styleable>
+</resources>

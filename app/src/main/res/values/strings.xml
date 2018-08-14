@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BottomifyNavigationSample</string>
+    <string name="home">Home</string>
+    <string name="browse">Browse</string>
+    <string name="search">Search</string>
+    <string name="radio">Radio</string>
+    <string name="your_library">Your Library</string>
+</resources>
