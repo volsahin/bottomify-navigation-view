@@ -1,8 +1,7 @@
-package com.volcaniccoder.bottomify_navigation_view
+package com.volcaniccoder.bottomifysample
 
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).

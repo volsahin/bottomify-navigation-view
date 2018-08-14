@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.volcaniccoder.bottomify.BottomifyNavigationView
+        android:id="@+id/bottomify_nav"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:background="@color/bottomifyNavigationBackgroundColor"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:menu="@menu/navigation_items"
+        app:active_color="@color/bottomifyActiveTextColor"
+        app:passive_color="@color/bottomifyPassiveTextColor"
+        app:pressed_color="@color/bottomifyPressedTextColor"
+        app:item_text_size="10sp"
+        app:item_padding="4dp"
+        app:animation_duration="300"
+        app:scale_percent="5" />
 
 </android.support.constraint.ConstraintLayout>
