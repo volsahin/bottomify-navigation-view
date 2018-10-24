@@ -232,6 +232,10 @@ class BottomifyNavigationView @JvmOverloads constructor(context: Context,
         // Update selected position
         selectedPosition = navigationItem.position
 
+        // Set recently selected item and color it active
+        navigationItem.textView.setTextColor(params.activeColor)
+        navigationItem.imageView.setColorFilter(params.activeColor)
+
         // Notify active view changed
         itemChangeListener?.onNavigationItemChanged(navigationItem)
 
