@@ -302,5 +302,14 @@ class BottomifyNavigationView @JvmOverloads constructor(context: Context,
 
         colorAnimation.start()
     }
+  
+    /**
+     * Clears the current selection
+     */
+    fun clearSelection() {
+        val selectedNavigationItem = navigationItems[selectedPosition]
+        selectedNavigationItem.textView.setTextColor(params.passiveColor)
+        selectedNavigationItem.imageView.setColorFilter(params.passiveColor)
+    }
 
 }
