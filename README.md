@@ -130,7 +130,7 @@ Add it in your root build.gradle at the end of repositories:
 ```groovy
 
   	dependencies {
-		implementation 'com.github.volsahin:bottomify-navigation-view:v1.0.1'
+		implementation 'com.github.volsahin:bottomify-navigation-view:1.0.2'
 	}
 ```
 
