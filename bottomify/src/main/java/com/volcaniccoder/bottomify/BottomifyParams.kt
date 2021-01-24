@@ -1,7 +1,7 @@
 package com.volcaniccoder.bottomify
 
-import android.support.annotation.ColorRes
 import android.view.Menu
+import androidx.annotation.ColorRes
 
 class BottomifyParams {
     var menu: Menu? = null
